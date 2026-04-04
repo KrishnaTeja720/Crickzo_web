@@ -1,0 +1,11 @@
+{
+  "user_id": 1,
+  "team_a": "VerifyA",
+  "team_b": "VerifyB",
+  "format": "6",
+  "venue": "Test",
+  "toss": "VerifyA",
+  "toss_decision": "Batting",
+  "pitch": "Batting",
+  "weather": "Clear"
+}

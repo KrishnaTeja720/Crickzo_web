@@ -1,0 +1,13 @@
+Column: id, Type: int(11), Null: NO, Key: PRI, Default: None
+Column: team_a, Type: varchar(100), Null: YES, Key: , Default: None
+Column: team_b, Type: varchar(100), Null: YES, Key: , Default: None
+Column: format, Type: varchar(20), Null: YES, Key: , Default: None
+Column: venue, Type: varchar(100), Null: YES, Key: , Default: None
+Column: toss_winner, Type: varchar(100), Null: YES, Key: , Default: None
+Column: toss_decision, Type: varchar(20), Null: YES, Key: , Default: None
+Column: pitch_type, Type: varchar(50), Null: YES, Key: , Default: None
+Column: weather, Type: varchar(50), Null: YES, Key: , Default: None
+Column: status, Type: varchar(20), Null: YES, Key: , Default: None
+Column: winner, Type: varchar(100), Null: YES, Key: , Default: None
+Column: user_id, Type: int(11), Null: YES, Key: , Default: None
+Column: current_innings, Type: int(11), Null: YES, Key: , Default: 1

@@ -1,0 +1,313 @@
+{
+  "team_a": {
+    "batting": [
+      {
+        "balls": 7,
+        "fours": 1,
+        "innings": 1,
+        "player_name": "chandu",
+        "runs": 10,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 5,
+        "fours": 1,
+        "innings": 1,
+        "player_name": "charan",
+        "runs": 12,
+        "sixes": 1,
+        "status": "out"
+      },
+      {
+        "balls": 9,
+        "fours": 2,
+        "innings": 1,
+        "player_name": "giri",
+        "runs": 16,
+        "sixes": 1,
+        "status": "out"
+      },
+      {
+        "balls": 1,
+        "fours": 0,
+        "innings": 1,
+        "player_name": "madhu",
+        "runs": 0,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 8,
+        "fours": 1,
+        "innings": 1,
+        "player_name": "mahesh",
+        "runs": 9,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 6,
+        "fours": 1,
+        "innings": 1,
+        "player_name": "pardhu",
+        "runs": 8,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 6,
+        "fours": 0,
+        "innings": 1,
+        "player_name": "pradeep",
+        "runs": 3,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 9,
+        "fours": 1,
+        "innings": 1,
+        "player_name": "vamsi",
+        "runs": 18,
+        "sixes": 1,
+        "status": "out"
+      },
+      {
+        "balls": 9,
+        "fours": 1,
+        "innings": 1,
+        "player_name": "vyshnav",
+        "runs": 9,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 0,
+        "fours": 0,
+        "player_name": "naveen",
+        "runs": 0,
+        "sixes": 0,
+        "status": "DNB"
+      },
+      {
+        "balls": 0,
+        "fours": 0,
+        "player_name": "sai",
+        "runs": 0,
+        "sixes": 0,
+        "status": "DNB"
+      }
+    ],
+    "bowling": [
+      {
+        "innings": 1,
+        "maidens": 0,
+        "overs": "1.0",
+        "player_name": "abhi",
+        "runs": 8,
+        "wickets": 1
+      },
+      {
+        "innings": 1,
+        "maidens": 0,
+        "overs": "2.0",
+        "player_name": "ajith",
+        "runs": 20,
+        "wickets": 0
+      },
+      {
+        "innings": 1,
+        "maidens": 0,
+        "overs": "2.0",
+        "player_name": "karthik",
+        "runs": 28,
+        "wickets": 2
+      },
+      {
+        "innings": 1,
+        "maidens": 0,
+        "overs": "2.0",
+        "player_name": "krishna",
+        "runs": 18,
+        "wickets": 2
+      },
+      {
+        "innings": 1,
+        "maidens": 0,
+        "overs": "1.0",
+        "player_name": "sathya",
+        "runs": 3,
+        "wickets": 1
+      },
+      {
+        "innings": 1,
+        "maidens": 0,
+        "overs": "1.0",
+        "player_name": "suri",
+        "runs": 5,
+        "wickets": 1
+      },
+      {
+        "innings": 1,
+        "maidens": 0,
+        "overs": "1.0",
+        "player_name": "teja",
+        "runs": 10,
+        "wickets": 0
+      }
+    ],
+    "name": "cse"
+  },
+  "team_b": {
+    "batting": [
+      {
+        "balls": 2,
+        "fours": 1,
+        "innings": 2,
+        "player_name": "abhi",
+        "runs": 4,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 11,
+        "fours": 1,
+        "innings": 2,
+        "player_name": "ajith",
+        "runs": 16,
+        "sixes": 1,
+        "status": "out"
+      },
+      {
+        "balls": 5,
+        "fours": 1,
+        "innings": 2,
+        "player_name": "karthik",
+        "runs": 5,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 2,
+        "fours": 0,
+        "innings": 2,
+        "player_name": "krishna",
+        "runs": 1,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 6,
+        "fours": 1,
+        "innings": 2,
+        "player_name": "sathya",
+        "runs": 7,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 1,
+        "fours": 0,
+        "innings": 2,
+        "player_name": "sharath",
+        "runs": 1,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 16,
+        "fours": 3,
+        "innings": 2,
+        "player_name": "suri",
+        "runs": 20,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 17,
+        "fours": 3,
+        "innings": 2,
+        "player_name": "teja",
+        "runs": 21,
+        "sixes": 0,
+        "status": "out"
+      },
+      {
+        "balls": 0,
+        "fours": 0,
+        "player_name": "arun",
+        "runs": 0,
+        "sixes": 0,
+        "status": "DNB"
+      },
+      {
+        "balls": 0,
+        "fours": 0,
+        "player_name": "kumar",
+        "runs": 0,
+        "sixes": 0,
+        "status": "DNB"
+      },
+      {
+        "balls": 0,
+        "fours": 0,
+        "player_name": "venkey",
+        "runs": 0,
+        "sixes": 0,
+        "status": "DNB"
+      }
+    ],
+    "bowling": [
+      {
+        "innings": 2,
+        "maidens": 0,
+        "overs": "2.0",
+        "player_name": "charan",
+        "runs": 15,
+        "wickets": 1
+      },
+      {
+        "innings": 2,
+        "maidens": 0,
+        "overs": "1.0",
+        "player_name": "giri",
+        "runs": 8,
+        "wickets": 0
+      },
+      {
+        "innings": 2,
+        "maidens": 0,
+        "overs": "1.0",
+        "player_name": "madhu",
+        "runs": 12,
+        "wickets": 0
+      },
+      {
+        "innings": 2,
+        "maidens": 0,
+        "overs": "2.0",
+        "player_name": "pradeep",
+        "runs": 21,
+        "wickets": 1
+      },
+      {
+        "innings": 2,
+        "maidens": 0,
+        "overs": "2.0",
+        "player_name": "vamsi",
+        "runs": 11,
+        "wickets": 2
+      },
+      {
+        "innings": 2,
+        "maidens": 0,
+        "overs": "2.0",
+        "player_name": "vyshnav",
+        "runs": 14,
+        "wickets": 2
+      }
+    ],
+    "name": "ece"
+  }
+}

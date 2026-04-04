@@ -1,0 +1,40 @@
+{
+  "batsman_forecast": [
+    {
+      "boundary_percent": "52",
+      "final_runs": "10+",
+      "name": "vamsi",
+      "out_risk": "0"
+    },
+    {
+      "boundary_percent": "39",
+      "final_runs": "10+",
+      "name": "vyshnav",
+      "out_risk": "15"
+    }
+  ],
+  "current_state": {
+    "balls": 0,
+    "runs": 0,
+    "wickets": 0
+  },
+  "next_5_overs": {
+    "runs": 30.0
+  },
+  "next_over": {
+    "runs": 8.6
+  },
+  "projected_score": {
+    "label": "Projected Target",
+    "range": "47-50"
+  },
+  "team_names": {
+    "a": "super stars",
+    "b": "warriors"
+  },
+  "wicket_probability": 0.0,
+  "winner_prediction": {
+    "super stars": 98.0,
+    "warriors": 2.0
+  }
+}

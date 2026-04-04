@@ -1,0 +1,105 @@
+/* Profile Screen Specific */
+.profile-header {
+    background: linear-gradient(to bottom, var(--primary-blue), var(--link-blue));
+    color: white;
+    padding: 40px 24px 60px;
+    text-align: center;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.profile-avatar-large {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.profile-stats-container {
+    display: flex;
+    gap: 12px;
+    padding: 0 20px;
+    margin-top: -30px;
+    margin-bottom: 24px;
+}
+
+.stat-card {
+    flex: 1;
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 16px 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    font-size: 10px;
+    color: var(--gray-text);
+    line-height: 1.2;
+}
+
+.profile-section {
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 16px;
+    margin: 0 20px 16px 20px;
+    border: 1px solid #e2e8f0;
+}
+
+.action-row {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #F8FAFC;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.action-row:active {
+    background-color: #e2e8f0;
+}
+
+.action-row:last-child {
+    margin-bottom: 0;
+}
+
+.action-row i {
+    margin-right: 12px;
+    color: var(--gray-text);
+}
+
+.action-row.danger i, .action-row.danger span {
+    color: var(--error);
+}
+
+.team-chip {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EFF6FF;
+    color: var(--primary-blue);
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.team-chip i {
+    margin-right: 6px;
+    font-size: 14px;
+}

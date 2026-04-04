@@ -1,0 +1,164 @@
+/* Scoring Screen CSS */
+.scoring-header {
+    background: linear-gradient(to bottom, var(--primary-blue), var(--link-blue));
+    color: white;
+    padding: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.score-display-main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.score-display-main h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+    color: white;
+}
+
+.score-display-main p {
+    font-size: 16px;
+    opacity: 0.9;
+    margin-top: 4px;
+}
+
+.score-stats {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 16px;
+}
+
+.score-stat-item {
+    text-align: center;
+}
+
+.score-stat-value {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.score-stat-label {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.batting-bowling-card {
+    background: white;
+    border-radius: 16px;
+    padding: 16px;
+    margin: -20px 20px 16px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid var(--slate-200);
+}
+
+.player-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--slate-100);
+}
+
+.player-row:last-child {
+    border-bottom: none;
+}
+
+.player-name {
+    font-weight: 600;
+    color: var(--slate-800);
+    display: flex;
+    align-items: center;
+}
+
+.striker-indicator {
+    color: var(--primary-blue);
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+.player-stats {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--slate-800);
+}
+
+.player-substats {
+    font-size: 12px;
+    color: var(--gray-text);
+    font-weight: 400;
+    margin-left: 12px;
+}
+
+.scoring-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 16px 20px;
+}
+
+.score-btn {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    transition: transform 0.1s, background-color 0.2s;
+}
+
+.score-btn:active {
+    transform: scale(0.95);
+    background-color: var(--light-blue);
+}
+
+.score-btn.boundary {
+    color: #10B981;
+    border-color: #10B981;
+}
+
+.score-btn.out {
+    background-color: var(--error);
+    color: white;
+    border-color: var(--error);
+}
+
+.score-btn.special {
+    background-color: var(--slate-100);
+    font-size: 14px;
+}
+
+.over-timeline {
+    display: flex;
+    gap: 8px;
+    padding: 12px 20px;
+    overflow-x: auto;
+}
+
+.ball-bubble {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--slate-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.ball-bubble.boundary { background: var(--blue-100); color: var(--error); }
+.ball-bubble.wicket { background: var(--error); color: white; }
+.ball-bubble.six { background: var(--blue-100); color: var(--success); }

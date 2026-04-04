@@ -1,0 +1,176 @@
+/* Predictions Screen CSS */
+.prediction-header {
+    background: linear-gradient(to bottom, var(--dark-blue), var(--primary-blue));
+    color: white;
+    padding: 24px 24px 16px 24px;
+}
+
+.segmented-control {
+    display: flex;
+    background: rgba(255,255,255,0.1);
+    border-radius: 24px;
+    padding: 4px;
+    margin-top: 16px;
+}
+
+.segment {
+    flex: 1;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.segment.active {
+    background: white;
+    color: var(--primary-blue);
+}
+
+.predictions-content {
+    padding: 16px;
+    background-color: var(--background);
+}
+
+.pred-card {
+    background: white;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #e2e8f0;
+}
+
+.pred-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.pred-card-title {
+    font-weight: 700;
+    color: #1E293B;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pred-card-title i {
+    color: var(--primary-blue);
+}
+
+.winner-bar-bg {
+    width: 100%;
+    height: 10px;
+    background: #f1f5f9;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.winner-bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s ease-out;
+}
+
+.row-pred {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.row-pred-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1E293B;
+}
+
+.row-pred-val {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.mini-pred-card {
+    background: white;
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+}
+
+.mini-pred-label {
+    font-size: 12px;
+    color: var(--gray-text);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.mini-pred-val {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--primary-blue);
+}
+
+.mini-pred-conf {
+    font-size: 11px;
+    color: var(--gray-text);
+}
+
+.phase-box {
+    width: 120px;
+    height: 110px;
+    background: #FFE4E6;
+    border: 1px solid #FECACA;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.batsman-box {
+    background: rgba(248, 250, 252, 0.5);
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.batsman-stat-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.batsman-stat {
+    text-align: center;
+}
+
+.batsman-stat-title {
+    font-size: 11px;
+    color: var(--gray-text);
+}
+
+.batsman-stat-val {
+    font-size: 18px;
+    font-weight: 700;
+}

@@ -1,0 +1,40 @@
+{
+  "batsman_forecast": [
+    {
+      "boundary_percent": "55",
+      "final_runs": "11+",
+      "name": "sharath",
+      "out_risk": "72"
+    },
+    {
+      "boundary_percent": "42",
+      "final_runs": "11+",
+      "name": "abhi",
+      "out_risk": "15"
+    }
+  ],
+  "current_state": {
+    "balls": 60,
+    "runs": 173,
+    "wickets": 6
+  },
+  "next_5_overs": {
+    "runs": 0.0
+  },
+  "next_over": {
+    "runs": 15.9
+  },
+  "projected_score": {
+    "label": "Projected Finish",
+    "range": "173-173"
+  },
+  "team_names": {
+    "a": "lions",
+    "b": "tigers"
+  },
+  "wicket_probability": 40.0,
+  "winner_prediction": {
+    "lions": 0.0,
+    "tigers": 100.0
+  }
+}

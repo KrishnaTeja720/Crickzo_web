@@ -1,0 +1,40 @@
+{
+  "batsman_forecast": [
+    {
+      "boundary_percent": "45",
+      "final_runs": "9+",
+      "name": "sathya",
+      "out_risk": "24"
+    },
+    {
+      "boundary_percent": "39",
+      "final_runs": "10+",
+      "name": "suri",
+      "out_risk": "15"
+    }
+  ],
+  "current_state": {
+    "balls": 20,
+    "runs": 64,
+    "wickets": 2
+  },
+  "next_5_overs": {
+    "runs": 30.0
+  },
+  "next_over": {
+    "runs": 14.0
+  },
+  "projected_score": {
+    "label": "Projected Finish",
+    "range": "93-96"
+  },
+  "team_names": {
+    "a": "elite",
+    "b": "titans"
+  },
+  "wicket_probability": 40.0,
+  "winner_prediction": {
+    "elite": 0.0,
+    "titans": 100.0
+  }
+}

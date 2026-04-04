@@ -1,0 +1,40 @@
+{
+  "batsman_forecast": [
+    {
+      "boundary_percent": "53",
+      "final_runs": "10+",
+      "name": "suri",
+      "out_risk": "36"
+    },
+    {
+      "boundary_percent": "38",
+      "final_runs": "10+",
+      "name": "ajith",
+      "out_risk": "15"
+    }
+  ],
+  "current_state": {
+    "balls": 24,
+    "runs": 74,
+    "wickets": 3
+  },
+  "next_5_overs": {
+    "runs": 18.9
+  },
+  "next_over": {
+    "runs": 14.9
+  },
+  "projected_score": {
+    "label": "Projected Finish",
+    "range": "91-94"
+  },
+  "team_names": {
+    "a": "light",
+    "b": "dark"
+  },
+  "wicket_probability": 42.5,
+  "winner_prediction": {
+    "dark": 100.0,
+    "light": 0.0
+  }
+}

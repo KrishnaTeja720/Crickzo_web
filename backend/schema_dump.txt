@@ -1,0 +1,13 @@
+ball_by_ball: id, match_id, innings, over_number, ball_number, batsman, bowler, runs, extras, wicket, extras_type, extras_runs, dismissal_type, striker, non_striker
+batsman_stats: id, match_id, player_name, runs, balls, fours, sixes, status
+bowler_stats: id, match_id, player_name, overs, maidens, runs, wickets, balls
+current_players: match_id, striker, non_striker, bowler
+match_players: id, match_id, player_name, team_name, role
+match_scores: id, match_id, innings, runs, wickets, overs, balls, crr, total_balls, adj_runs, adj_wickets, adj_balls
+matches: id, team_a, team_b, format, venue, toss_winner, toss_decision, pitch_type, weather, status, winner, user_id, current_innings
+otp_verification: id, email, otp, created_at
+players: player_id, player_name, team_name
+predictions: id, user_id, match_id, win_probability, created_at
+user_favorite_teams: id, user_id, team_name
+user_scores: id, user_id, match_id, runs, wickets, overs
+users: id, name, email, password

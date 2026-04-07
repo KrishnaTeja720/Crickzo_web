@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://127.0.0.1:5005';
+const API_BASE_URL = 'http://180.235.121.245:8034';
 
 class ApiService {
     static async _sleep(ms) {

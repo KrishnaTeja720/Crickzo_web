@@ -17,6 +17,8 @@ import Scoring from './screens/Scoring';
 import Predictions from './screens/Predictions';
 import MyMatches from './screens/MyMatches';
 import Scorecard from './screens/Scorecard';
+import Subscription from './screens/Subscription';
+
 
 function App() {
   const { user } = useContext(AuthContext);
@@ -41,6 +43,8 @@ function App() {
         <Route path="/predictions" element={<Predictions />} />
         <Route path="/my_matches" element={<MyMatches />} />
         <Route path="/scorecard/:matchId" element={<Scorecard />} />
+        <Route path="/subscription" element={<Subscription />} />
+
         
         {/* Add more routes as we build the screens */}
         <Route path="*" element={<Navigate to="/" replace />} />

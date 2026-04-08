@@ -24,7 +24,7 @@ const Sidebar = () => {
                     style={{ width: '40px', height: '40px', borderRadius: '8px' }} 
                 />
                 <div>
-                    <h1 style={{ color: 'var(--primary-blue)', margin: 0, fontSize: '20px' }}>Crickzo</h1>
+                    <h1 style={{ color: 'var(--primary-blue)', margin: 0, fontSize: '20px' }}>Criczo</h1>
                     <p style={{ fontSize: '12px', color: 'var(--gray-text)', margin: 0 }}>Cricket Scoring</p>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const Sidebar = () => {
             <div className="spacer"></div>
             
             <div className="sidebar-footer" style={{ fontSize: '10px', color: 'var(--gray-text)', textAlign: 'center' }}>
-                &copy; 2026 Crickzo
+                &copy; 2026 Criczo
             </div>
         </aside>
     );

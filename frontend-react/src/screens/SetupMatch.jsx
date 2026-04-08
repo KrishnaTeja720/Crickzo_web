@@ -45,7 +45,7 @@ const SetupMatch = () => {
 
     // ─────────────────────────────────────────────────────────────
     // Fetch existing players from the DB when the screen loads.
-    // This handles matches created on the Crickzo website where
+    // This handles matches created on the Criczo website where
     // players are already registered in the match_players table.
     // ─────────────────────────────────────────────────────────────
     const refreshPlayers = async () => {

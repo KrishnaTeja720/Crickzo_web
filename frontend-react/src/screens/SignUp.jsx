@@ -82,7 +82,7 @@ const SignUp = () => {
             <div className="center-content" style={{ marginTop: '-40px' }}>
                 <img 
                     src={appLogo} 
-                    alt="Crickzo Logo" 
+                    alt="Criczo Logo" 
                     style={{
                         width: '80px', 
                         height: '80px', 
@@ -92,7 +92,7 @@ const SignUp = () => {
                     }} 
                 />
                 <h1>Create Account</h1>
-                <p className="subtitle">Join Crickzo today</p>
+                <p className="subtitle">Join Criczo today</p>
                 
                 <div className="form-group">
                     <input 

@@ -188,7 +188,7 @@ const Profile = () => {
             </div>
             
             <footer style={{ marginTop: '40px', textAlign: 'center', color: 'var(--gray-text)', fontSize: '12px' }}>
-                Crickzo Premium Web v1.0.0 &bull; Professional Scoring Infrastructure
+                Criczo Premium Web v1.0.0 &bull; Professional Scoring Infrastructure
             </footer>
 
             {/* Account Settings Modal removed as per 'make it full' request */}

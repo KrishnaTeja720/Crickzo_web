@@ -29,7 +29,7 @@ const Splash = () => {
         }}>
             <img 
                 src={appLogo} 
-                alt="Crickzo Logo" 
+                alt="Criczo Logo" 
                 style={{ 
                     width: '180px', 
                     height: 'auto', 
@@ -38,7 +38,7 @@ const Splash = () => {
                 }} 
             />
             <div style={{ textAlign: 'center' }}>
-                <h1 style={{ color: 'white', fontSize: '48px', fontWeight: 800, margin: 0 }}>Crickzo</h1>
+                <h1 style={{ color: 'white', fontSize: '48px', fontWeight: 800, margin: 0 }}>Criczo</h1>
                 <p style={{ margin: '8px 0 0 0', opacity: 0.9 }}>Live matches, real-time predictions</p>
             </div>
         </div>

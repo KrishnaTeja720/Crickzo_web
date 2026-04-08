@@ -89,7 +89,7 @@ const Subscription = () => {
                 }}>
                     <span style={{ fontSize: '50px' }}>✨</span>
                 </div>
-                <h1 style={{ fontSize: '42px', fontWeight: '800', marginBottom: '8px', color: '#FFFFFF' }}>UniVault</h1>
+                <h1 style={{ fontSize: '42px', fontWeight: '800', marginBottom: '8px', color: '#FFFFFF' }}>Criczo</h1>
                 <div style={{
                     display: 'inline-block',
                     padding: '4px 16px',
